@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { HashRouter as Router } from 'react-router-dom';
+
 import { fetchTickets } from "./api/api";
 import Header from "./components/Column";
 import Board from "./components/kanbanBoard";
